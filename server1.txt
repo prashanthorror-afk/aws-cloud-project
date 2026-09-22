@@ -1,0 +1,3 @@
+Server: S3
+OS: Ubuntu
+Region: ap-south-2
