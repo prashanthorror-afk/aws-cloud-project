@@ -1,3 +1,5 @@
 Server: IAM
 OS: Ubuntu
 Region: ap-south-1
+Security: IAM
+OS: AWS Linux
