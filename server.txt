@@ -1,3 +1,4 @@
 Server: EC2
 OS: Ubuntu
 Region: ap-south-1
+Environment: AWS
