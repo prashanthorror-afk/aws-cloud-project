@@ -1,4 +1,4 @@
 Service: AWS Cloud
-Purpose: Monitor EC2 and Cloudwatch
+Purpose: Monitor EC2, S3, and CloudWatch
 Metric: CPU Utilization
 Region: ap-south-2
