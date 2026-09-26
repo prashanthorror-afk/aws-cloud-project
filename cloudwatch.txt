@@ -1,0 +1,4 @@
+Service: AWS CloudWatch
+Purpose: Monitor EC2
+Metric: CPU Utilization
+Region: ap-south-1
