@@ -1,0 +1,5 @@
+Project: AWS Cloud Monitoring
+Service: CloudWatch
+Resource: EC2
+Metric: CPU Utilization
+Region: ap-south-2
