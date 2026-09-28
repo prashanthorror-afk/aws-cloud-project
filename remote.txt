@@ -3,3 +3,4 @@ Branch: Remote Practice
 Service: EC2
 Region: ap-south-1
 Montoring: Cloudwatch
+log: enabled
