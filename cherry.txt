@@ -1,0 +1,4 @@
+Project: AWS Cloud
+Service: EC2
+Task: Cherry-Pick Practice
+Region: ap-south-1
