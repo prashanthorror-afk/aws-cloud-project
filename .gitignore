@@ -1,2 +1,20 @@
-server.txxt
-sarver.txt
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Private keys
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
