@@ -1,3 +1,4 @@
+
 name: Git Practice
 
 on:
@@ -21,3 +22,8 @@ jobs:
           echo "AWS Cloud Engineer Project"
           echo "GitHub Actions is working"
           git --version
+
+      - name: Validate project documentation
+        run: |
+          chmod +x scripts/validate-project.sh
+          ./scripts/validate-project.sh
