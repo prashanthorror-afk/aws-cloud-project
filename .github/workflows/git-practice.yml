@@ -27,3 +27,6 @@ jobs:
         run: |
           chmod +x scripts/validate-project.sh
           ./scripts/validate-project.sh
+
+      - name: Run ShellCheck
+        run: shellcheck scripts/validate-project.sh
