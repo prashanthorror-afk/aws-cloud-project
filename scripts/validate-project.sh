@@ -14,4 +14,9 @@ if [ ! -f "docs/cloudwatch-monitoring.md" ]; then
     exit 1
 fi
 
-echo "SUCCESS: Required project documentation exists."
+if [ ! -f ".github/workflows/git-practice.yml" ]; then
+    echo "ERROR: GitHub Actions workflow is missing"
+    exit 1
+fi
+
+echo "SUCCESS: Required project files exist."
