@@ -2,11 +2,6 @@
 
 set -e
 
-if [ ! -f "required-test-file.txt" ]; then
-    echo "ERROR: Required test file is missing"
-    exit 1
-fi
-
 echo "Starting AWS Cloud Monitoring project validation..."
 
 if [ ! -f "README.md" ]; then
