@@ -30,3 +30,6 @@ jobs:
 
       - name: Run ShellCheck
         run: shellcheck scripts/validate-project.sh
+
+      - name: Run automated tests
+        run: bash tests/test-validation.sh
