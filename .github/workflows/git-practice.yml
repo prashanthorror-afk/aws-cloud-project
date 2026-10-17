@@ -31,5 +31,11 @@ jobs:
       - name: Run ShellCheck
         run: shellcheck scripts/validate-project.sh
 
+      - name: Check Bash syntax
+        run: |
+          bash -n scripts/validate-project.sh
+          bash -n tests/test-validation.sh
+
       - name: Run automated tests
         run: bash tests/test-validation.sh
+
